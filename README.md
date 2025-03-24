@@ -1,66 +1,87 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# System do torzenia i przeprowadzania testów wyboru
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+## Opis projektu
+Ten system to aplikacja webowa przeznaczona dla administratorów, nauczycieli i uczniów, umożliwiająca tworzenie oraz przeprowadzanie testów online. System został zaprojektowany w celu usprawnienia zarządzania użytkownikami, tworzenia testów i analizowania wyników.
 
-## About Laravel
+---
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+## Funkcjonalności
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### Administrator systemu:
+- **Rejestrowania i edytowania nauczycieli oraz uczniów.**
+- **Zarządzanie przedmiotami (dodawanie, edytowanie, usuwanie).**
+- **Zarządzanie kierunkami (dodawanie, edytowanie, usuwanie).**
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+### Dla nauczycieli:
+- **Logowanie**
+- **Tworzyć grupy studentów.**
+- **Dodawać pytania do bazy pytań.**
+- **Tworzyć testy z wykorzystaniem wcześniej utworzonych pytań.**
+- **Sprawdzać odpowiedzi i wyniki studentów na przeprowadzonych testach.**
 
-## Learning Laravel
+### Dla uczniów:
+- **Logowanie**
+- **Rozwiązywanie testów.**
+- **Przeglądania wyników swoich testów po ich zakończeniu.**
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+---
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Technologie
+<!-- https://github.com/marwin1991/profile-technology-icons -->
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+- <img src="assets/images/icons/README/HTML5.png" alt="HTML" style="width:30px; vertical-align:middle;"> <span>HTML</span>
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+- <img src="assets/images/icons/README/CSS3.png" alt="CSS" style="width:30px; vertical-align:middle;"> <span>CSS</span>
 
-### Premium Partners
+- <img src="assets/images/icons/README/JavaScript.png" alt="JavaScript" style="width:30px; vertical-align:middle;"> <span>JavaScript</span>
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+- <img src="assets/images/icons/README/PHP.png" alt="PHP" style="width:30px; vertical-align:middle;"> <span>PHP</span>
 
-## Contributing
+- <img src="assets/images/icons/README/MySQL.png" alt="MySQL" style="width:30px; vertical-align:middle;"> <span>MySQL</span>
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+- <img src="assets/images/icons/README/Git.png" alt="Git" style="width:30px; vertical-align:middle;"> <span>Git</span>
 
-## Code of Conduct
+- <img src="assets/images/icons/README/Sass.png" alt="Sass" style="width:30px; vertical-align:middle;"> <span>Sass</span>
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+- <img src="assets/images/icons/README/Bootstrap.png" alt="Bootstrap" style="width:30px; vertical-align:middle;"> <span>Bootstrap</span>
 
-## Security Vulnerabilities
+- <img src="assets/images/icons/README/jQuery.png" alt="jQuery" style="width:30px; vertical-align:middle;"> <span>jQuery<span>
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- <img src="assets/images/icons/README/phpspreadsheet.png" alt="jQuery" style="width:30px; vertical-align:middle;"> <span>PhpSpreadSheet<span>
 
-## License
+- <img src="assets/images/icons/README/Composer.png" alt="jQuery" style="width:30px; vertical-align:middle;"> <span>Composer<span>
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+---
+
+## Instalacja
+
+1. **Klonowanie repozytorium**:  
+   `git clone https://github.com/ModestAcro/OnlineTestSystem.git`
+
+2. **Upewnij się, że posiadasz zainstalowane MAMP/XAMPP**:
+    - MAMP: [https://www.mamp.info/en/mac/](https://www.mamp.info/en/mac/)
+    - XAMPP: [https://www.apachefriends.org/](https://www.apachefriends.org/)
+
+3. **Konfiguracja bazy danych**:  
+   Zaimportuj plik SQL (online_test_system.sql) z folderu projektu do swojej bazy danych.
+
+4. **Edycja pliku konfiguracyjnego**:  
+   Otwórz i edytuj plik konfiguracyjny:
+   `OnlineTestSystem/config/connect.php`, wprowadzając odpowiednie dane dostępowe do bazy danych.
+
+5. **Uruchomienie serwera**:  
+   Uruchom lokalny serwer na adresie `localhost`, aby rozpocząć korzystanie z aplikacji.
+
+---
+
+## Autor
+
+Modest Semionow
+
+
+
+
+
