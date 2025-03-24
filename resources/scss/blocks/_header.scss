@@ -1,0 +1,33 @@
+header {
+    background-color: #962328 !important;
+    padding: 0px 30px 0px 30px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #962328 !important;
+}
+
+.nav-link {
+    color: #FFDAB9 !important;
+
+
+    &:hover {
+        color: #FFD700 !important;
+    }
+}
+
+.fw-bold {
+    color: #fff !important;
+}
+
+.custom-toggler {
+    filter: invert(1); /* Zmienia kolor na biały */
+}
+
+
+
+
+
+
