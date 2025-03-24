@@ -29,28 +29,27 @@ Ten system to aplikacja webowa przeznaczona dla administratorów, nauczycieli i 
 ## Technologie
 <!-- https://github.com/marwin1991/profile-technology-icons -->
 
+- <img src="public/images/README/Laravel.png" alt="Laravel" style="width:30px; vertical-align:middle;"> <span>Laravel</span>
 
-- <img src="assets/images/icons/README/HTML5.png" alt="HTML" style="width:30px; vertical-align:middle;"> <span>HTML</span>
+- <img src="public/images/README/PHP.png" alt="PHP" style="width:30px; vertical-align:middle;"> <span>PHP</span>
 
-- <img src="assets/images/icons/README/CSS3.png" alt="CSS" style="width:30px; vertical-align:middle;"> <span>CSS</span>
+- <img src="public/images/README/HTML5.png" alt="HTML" style="width:30px; vertical-align:middle;"> <span>HTML</span>
 
-- <img src="assets/images/icons/README/JavaScript.png" alt="JavaScript" style="width:30px; vertical-align:middle;"> <span>JavaScript</span>
+- <img src="public/images/README/Bootstrap.png" alt="Bootstrap" style="width:30px; vertical-align:middle;"> <span>Bootstrap</span>
 
-- <img src="assets/images/icons/README/PHP.png" alt="PHP" style="width:30px; vertical-align:middle;"> <span>PHP</span>
+- <img src="public/images/README/CSS3.png" alt="CSS" style="width:30px; vertical-align:middle;"> <span>CSS</span>
 
-- <img src="assets/images/icons/README/MySQL.png" alt="MySQL" style="width:30px; vertical-align:middle;"> <span>MySQL</span>
+- <img src="public/images/README/Sass.png" alt="Sass" style="width:30px; vertical-align:middle;"> <span>Sass</span>
 
-- <img src="assets/images/icons/README/Git.png" alt="Git" style="width:30px; vertical-align:middle;"> <span>Git</span>
+- <img src="public/images/README/JavaScript.png" alt="JavaScript" style="width:30px; vertical-align:middle;"> <span>JavaScript</span>
 
-- <img src="assets/images/icons/README/Sass.png" alt="Sass" style="width:30px; vertical-align:middle;"> <span>Sass</span>
+- <img src="public/images/README/MySQL.png" alt="MySQL" style="width:30px; vertical-align:middle;"> <span>MySQL</span>
 
-- <img src="assets/images/icons/README/Bootstrap.png" alt="Bootstrap" style="width:30px; vertical-align:middle;"> <span>Bootstrap</span>
+- <img src="public/images/README/Git.png" alt="Git" style="width:30px; vertical-align:middle;"> <span>Git</span>
 
-- <img src="assets/images/icons/README/jQuery.png" alt="jQuery" style="width:30px; vertical-align:middle;"> <span>jQuery<span>
+- <img src="public/images/README/phpspreadsheet.png" alt="jQuery" style="width:30px; vertical-align:middle;"> <span>PhpSpreadSheet<span>
 
-- <img src="assets/images/icons/README/phpspreadsheet.png" alt="jQuery" style="width:30px; vertical-align:middle;"> <span>PhpSpreadSheet<span>
-
-- <img src="assets/images/icons/README/Composer.png" alt="jQuery" style="width:30px; vertical-align:middle;"> <span>Composer<span>
+- <img src="public/images/README/Composer.png" alt="jQuery" style="width:30px; vertical-align:middle;"> <span>Composer<span>
 
 
 
