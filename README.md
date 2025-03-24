@@ -57,22 +57,24 @@ Ten system to aplikacja webowa przeznaczona dla administratorów, nauczycieli i 
 
 ## Instalacja
 
-1. **Klonowanie repozytorium**:  
-   `git clone https://github.com/ModestAcro/OnlineTestSystem.git`
+1. **Klonowanie repozytorium**:
 
-2. **Upewnij się, że posiadasz zainstalowane MAMP/XAMPP**:
+   `git clone https://github.com/ModestAcro/OnlineTestSystem_Laravel.git`
+
+2. **Instalacja wymaganych narzędzi**:
     - MAMP: [https://www.mamp.info/en/mac/](https://www.mamp.info/en/mac/)
     - XAMPP: [https://www.apachefriends.org/](https://www.apachefriends.org/)
 
 3. **Konfiguracja bazy danych**:  
-   Zaimportuj plik SQL (online_test_system.sql) z folderu projektu do swojej bazy danych.
-
-4. **Edycja pliku konfiguracyjnego**:  
-   Otwórz i edytuj plik konfiguracyjny:
-   `OnlineTestSystem/config/connect.php`, wprowadzając odpowiednie dane dostępowe do bazy danych.
-
-5. **Uruchomienie serwera**:  
-   Uruchom lokalny serwer na adresie `localhost`, aby rozpocząć korzystanie z aplikacji.
+    - Uruchom MAMP/XAMPP i włącz serwer MySQL.
+    - Otwórz nową bazę danych.
+    - Skopiuj plik `.env.example` i zmień jego nazwę na `.env`
+    - Otwórz `.env` i dostosuj ustawienia bazy danych (DB_DATABASE, DB_USERNAME, DB_PASSWORD)
+    - Wykonaj migracje `"php artisan migrate"`.
+   
+4. **Uruchomienie serwera**:  
+    - Uruchom serwer aplikacji: `"php artisan serve"`
+    - Otwórz przeglądarkę i przejdź do: `"http://127.0.0.1:8000"`
 
 ---
 
